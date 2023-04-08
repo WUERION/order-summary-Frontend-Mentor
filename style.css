@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+
+
+:root {
+    /* prymary */
+    --Azul-pálido: hsl(225, 100%, 94%);
+    --btn: hsl(245, 75%, 52%);
+    
+    /* neutral */
+    --Azul-muy-pálido: hsl(225, 100%, 98%);
+    --Azul-desaturado: hsl(224, 23%, 55%);
+    --text-major: hsl(223, 47%, 23%);
+
+    /* fonts */
+    --fonts: 'Red Hat Display', sans-serif;
+    --size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 340px;
+    background-color: white;
+    margin: 50px;
+    box-shadow: 0 0 10px -1px var(--Azul-desaturado);
+}
+
+.card>img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card>h1 {
+    color: var(--text-major);
+    font-family: var(--fonts);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card>p {
+    text-align: center;
+    font-family: var(--fonts);
+    color: var(--Azul-desaturado);
+    font-size: var(--size);
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.plan {
+    background-color: var(--Azul-muy-pálido);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 25px;
+    padding: 15px;
+}
+
+.texts>p {
+    margin-left: 15px;
+}
+
+.plan>a {
+    margin-left: 50px;
+    color: var(--btn);
+    font-size: var(--size)1;
+    cursor: pointer;
+}
+
+.plan>img {
+    border-radius: 50px;
+    align-items: center;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: var(--text-major);
+    font-family: var(--fonts);
+    font-size: var(--size);
+}
+
+.texts>p:not(.text) {
+    color: var(--Azul-desaturado);
+    font-size: var(--size);
+}
+
+.btn-sumit {
+    background-color: var(--btn);
+    color: white;
+    font-family: var(--fonts);
+    font-size: var(--size);
+    width: 300px;
+    margin: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    cursor: pointer;
+    box-shadow: 0px 10px 5px -7px var(--Azul-desaturado);
+}
+
+.btn-cancel {
+    background: none;
+    border: none;
+    color: var(--Azul-desaturado);
+    font-family: var(--fonts);
+    font-size: var(--size);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:1440px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+    }
+}
