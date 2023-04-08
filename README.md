@@ -31,6 +31,8 @@ Users should be able to:
 - Solution URL: [Add solution URL here]
 - Live Site URL: [Add live site URL here]
 
+### Time
+-2h:08m:41s
 # Author
 
 -Author - WUERION:[https://wuerion.github.io/]
