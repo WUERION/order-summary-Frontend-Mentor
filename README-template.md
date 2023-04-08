@@ -16,21 +16,22 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+- This project is a solution to the Frontend Mentor Order Summary component challenge.
 
 ### The challenge
 
 Users should be able to:
 
-- See hover states for interactive elements
-
-### Screenshot
-
-![](./screenshot.jpg)
+- The goal of this project is to create an order component using HTML AND CSS.
 
 ### Links
 
 - Solution URL: [Add solution URL here]
 - Live Site URL: [Add live site URL here]
+
+# Author
+
+-Author - WUERION:[https://wuerion.github.io/]
+-link-profile-Frontend-Mentor:[https://www.frontendmentor.io/profile/WUERION]
